@@ -1,27 +1,47 @@
-body {background-image: url(pogotest.gif);
+body {
+	background-image: url(../pogotest.gif);
 	background-size: cover;
-/*background-color: green;*/
-font-family: 'Poppins', sans-serif;}
-h1 {color:	#000000;
-text-align: right;
-margin-right: 3%;
-text-decoration: underline;
-font-style: semi-bold}
-h3{0,0,0,.6:;
-text-transform: uppercase;
-position: absolute;
-bottom: 20%;
-right: 3%}
-ul{color: black;
-position: absolute;
-bottom: 15%;
-right: 3%;}
-p{
-letter-spacing: 2px;
-line-height: 1.5em;
-padding: 15px;
-background: rgba(255,255,255,.65);
-width: 40%;
-margin-left: 5%;
+	/*background-color: green;*/
+	font-family: 'Poppins', sans-serif;}
+h1 {
+	text-align: right;
+	margin-right: 3%;
+	font-style: semi-bold;
+	/*text-decoration: underline;*/}
+hr {
+	border: none;
+	background-color: #1D4038;
+	height: 5px;
+	width: 20%;
+	margin-right: 3%;}
+
+.pastprojects {position: absolute;
+	bottom: 0%;
+	right: 3%;
+	width: 20%;
+	background: rgba(255,255,255,.65);}
+
+h3{
+	text-transform: uppercase;
+	margin: 15px;
 }
+ul{
+	list-style-type: none;
+	color: black;
+}
+p{
+	letter-spacing: 2px;
+	line-height: 1.5em;
+	padding: 15px;
+	background: rgba(255,255,255,.7);
+	width: 40%;
+	margin-left: 5%;}	
+
+a {
+    color: #17332D;
+    text-decoration: none;
+}
+.header {
+	color:	#29595B;
+	}
 
