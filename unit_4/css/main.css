@@ -3,38 +3,39 @@ body {
 	background-size: cover;
 	/*background-color: green;*/
 	font-family: 'Poppins', sans-serif;}
+
+
 h1 {
+/*	padding: 20px;*/
 	text-align: right;
 	margin-right: 3%;
 	font-style: semi-bold;
 	/*text-decoration: underline;*/}
-hr {
+/*hr {
 	border: none;
-	background-color: #1D4038;
-	height: 5px;
-	width: 20%;
-	margin-right: 3%;}
-
-.pastprojects {position: absolute;
-	bottom: 0%;
-	right: 3%;
-	width: 20%;
-	background: rgba(255,255,255,.65);}
+	background-color: #29595B;
+	height: 3px;
+	width: 92%;
+	margin-right: 3%;}*/
 
 h3{
 	text-transform: uppercase;
+	text-align: right;
 	margin: 15px;
 }
 ul{
 	list-style-type: none;
 	color: black;
+	text-align: right;
+	margin: 15px;
 }
-p{
+p{position: relative;
+	margin-top: 12%;
 	letter-spacing: 2px;
 	line-height: 1.5em;
 	padding: 15px;
 	background: rgba(255,255,255,.7);
-	width: 40%;
+	width: 35%;
 	margin-left: 5%;}	
 
 a {
@@ -45,3 +46,13 @@ a {
 	color:	#29595B;
 	}
 
+.pastprojects {position: absolute;
+	bottom: 0%;
+	right: 3%;
+	width: 18%;
+	background: rgba(255,255,255,.65);}
+
+#headerbox {position: fixed;
+	top: 0px;
+	width: 100%;
+	background: rgba(255,255,255,.6);}
