@@ -41,6 +41,9 @@ a {
     color: #17332D;
     text-decoration: none;
 }
+
+footer {margin:auto;}
+
 .header {
 	color:	#29595B;
 	}
@@ -56,3 +59,4 @@ a {
 	left: 0px;
 	width: 100%;
 	background: rgba(255,255,255,.6);}
+
