@@ -1,0 +1,80 @@
+header {
+    background-color: #A84000;
+    border: 1px #A8FAFF solid;
+    padding: 20px;
+    color: #A8FAFF;
+    font-family: sans-serif;
+}
+
+#wrapper {
+    background-color: #A84000
+    border: 1px #A8FAFF solid;
+    padding: 20px;
+
+}
+
+section {
+    background-color: #FF6100;
+ /*   border: 1px #A8FAFF solid;*/
+    padding: 20px;
+}
+
+article {
+    background-color:  #E89C6C;
+    border: 1px #A8FAFF solid;
+    padding: 20px;
+}
+
+aside {
+    background-color: #FFC675;
+    border: 1px #A8FAFF solid;
+    padding: 20px;
+}
+
+nav {
+    background-color: #E8C66A;
+    border: 1px #A8FAFF solid;
+    padding: 20px;
+}
+
+	footer {
+    background-color: #FF6100;
+   /* border: 1px #A8FAFF solid;*/
+    padding: 20px;
+    color: #A8FAFF;
+    font-family: sans-serif;
+}
+
+#two_column {
+    background-color: #FFC092;
+    border: 1px #A8FAFF solid;
+    padding: 20px;
+   
+}
+
+
+#left {
+    background-color: #00AFB2;
+    border: 2px #A8FAFF solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: #00FAFF;
+    border: 2px #A8FAFF solid;
+    padding: 20px;
+    float: right;
+    width: 62%;
+}
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+font-size: 0;
+content: " ";
+clear: both;
+height: 0;
+
+}
