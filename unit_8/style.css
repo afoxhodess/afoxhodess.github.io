@@ -1,0 +1,202 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+/*header {
+ color: #FFFFFF; */
+}
+h1, h2 {
+  font-weight: 800;
+  text-transform: uppercase;
+  border-bottom: 4px solid black;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.1em;
+  padding: 1% 0;
+  text-align: center;
+}
+
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  float: left;
+}
+
+li {
+  float:left;
+  font-size: 1em;
+  width: 50%;
+  height: 100px;
+  outline: 1em solid #222222;
+  text-align: center;
+  line-height: 5em;
+  color: black;
+  background: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  color: #5c5c5c;
+}
+div {
+  padding: 1%;
+}
+
+nav {
+  font-size: 1.1em;
+  width: auto;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin: 1%;
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+footer {
+  text-align: center;
+  border-top: 1px solid black;
+  padding: 1% 0;
+  clear: both;
+  background-color: black;
+  color: white;
+  width: auto;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  clear: both;
+  width: 100%;
+}
+
+#hero {
+  background: #FFFFFF;;
+}
+
+section {
+  background: white;
+  color: #5c5c5c;
+  overflow: auto;
+}
+
+.Who {
+  color: #5c5c5c;
+  border-bottom-color: #5c5c5c;
+  text-align: center;
+}
+
+.upcoming {
+  color: #5c5c5c;
+}
+
+#about {
+  font-size: 1em;
+  width: 40%;
+  display: inline-block;
+  margin: 1%;
+}
+
+#services {
+  font-size: 1em;
+  color: #5c5c5c;
+  width: 40%;
+  float: right;
+  background-color: white;
+  margin: 1% 5% 10%;
+  text-align: center;
+}
+
+
+
+a:hover, a:active {
+    color: #f43d3d;
+}
+
+hr {
+  color: white;
+}
+
+@media only screen and (max-width: 1040px) {
+  body {
+    font-size: 15px;
+  }
+  nav {
+    float: none;
+    text-align: center;
+  } 
+
+  nav a {
+      margin: .75em 1.6em .75em 0;
+
+  }
+ /* img {
+    width: 70%;
+  }*/
+  .hero {
+    width: 70%;
+  }
+
+  #about {
+    font-size: 1em;
+    line-height: 1.8em;
+    width: 80%;
+    margin: 2% 10% 2%;
+
+  }
+  #services {
+    font-size: 1em;
+    line-height: 1.8em;
+    float: none;
+    display: block;
+    width: 74%;
+    margin: 0 13% 4%;
+    text-align: center;
+  }
+
+  p, ul, .flyers {
+    margin: 1.8em .6em 0;
+    width: 100%;
+  }
+
+ /* .flyers {
+    width: 100%;
+    margin: 1.8em .6em 0;
+    outline-width: .5em;
+    height: 2em;
+    line-height: 2em;
+  }*/
+
+
+
+}
+
+@media only screen and (max-width: 506px) {
+  nav {
+    display: block;
+    float: none;
+  }
+  nav a {
+      margin: 1.5% 20% 1.5%;
+    }
+  }
+  
