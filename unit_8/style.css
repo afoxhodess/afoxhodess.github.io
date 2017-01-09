@@ -89,6 +89,10 @@ img {
   width: 100%;
 }
 
+a img {
+    display:block;
+}
+
 #hero {
   background: #FFFFFF;;
 }
